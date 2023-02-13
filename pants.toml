@@ -18,5 +18,5 @@ python-default = "lock.txt"
 [source]
 root_patterns = ["src/"]
 
-[python-repos]
-indexes = "+['https://download.pytorch.org/whl/cpu']"
+# [python-repos]
+# indexes = "+['https://download.pytorch.org/whl/cpu']"

@@ -31,8 +31,23 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "71636a5c21927236f4974d2355fb3f66a0b707c28219b0135ff65ed0f0e61287",
-              "url": "https://download.pytorch.org/whl/cpu/torch-1.13.1%2Bcpu-cp39-cp39-linux_x86_64.whl"
+              "hash": "e0df902a7c7dd6c795698532ee5970ce898672625635d885eade9976e5a04949",
+              "url": "https://files.pythonhosted.org/packages/2d/ab/8210e877debc6e16c5f64345b08abfd667ade733329ef8b38dd06a362513/torch-1.13.1-cp39-none-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "50ff5e76d70074f6653d191fe4f6a42fdbe0cf942fbe2a3af0b75eaa414ac038",
+              "url": "https://files.pythonhosted.org/packages/25/09/184125ce54b2d7e665f3b674a1ac5d96b442f00dd11804490e926231e36b/torch-1.13.1-cp39-cp39-manylinux1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2c3581a3fd81eb1f0f22997cddffea569fea53bafa372b2c0471db373b26aafc",
+              "url": "https://files.pythonhosted.org/packages/86/08/41315a205bcd103a9698fa8afafbb73a234db8791cdb8b96d1efb10243a7/torch-1.13.1-cp39-cp39-manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6930791efa8757cb6974af73d4996b6b50c592882a324b8fb0589c6a9ba2ddaf",
+              "url": "https://files.pythonhosted.org/packages/ce/52/14eaa44345e444be2e2da749a7fdbdec71c45294cff33023de12ac3a9115/torch-1.13.1-cp39-none-macosx_10_9_x86_64.whl"
             }
           ],
           "project_name": "torch",
@@ -41,7 +56,7 @@
             "typing-extensions"
           ],
           "requires_python": ">=3.7.0",
-          "version": "1.13.1+cpu"
+          "version": "1.13.1"
         },
         {
           "artifacts": [
