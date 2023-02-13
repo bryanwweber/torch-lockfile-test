@@ -1,0 +1,22 @@
+[GLOBAL]
+pants_version = "2.14.1"
+backend_packages = [
+    "pants.backend.python",
+]
+
+[anonymous-telemetry]
+enabled = true
+repo_id = "8D449216-AA2B-4193-849E-5ED9ED466BB3"
+
+[python]
+enable_resolves = true
+interpreter_constraints = ["CPython==3.9.*"]
+
+[python.resolves]
+python-default = "lock.txt"
+
+[source]
+root_patterns = ["src/"]
+
+[python-repos]
+indexes = "+['https://download.pytorch.org/whl/cpu']"
